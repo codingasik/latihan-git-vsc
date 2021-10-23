@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>My Website</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="topnav" id="myTopnav">
+      <div>
+        <a href="#home" class="active">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          Menu
+        </a>
+      </div>
+    </div>
+    <section id="showcase">
+      <div class="container">
+        <h1>One Piece</h1>
+        <h2>- Monkey D Luffy</h2>
+        <p>"Jika kamu merasa lapar makanlah."</p>
+      </div>
+    </section>
+    <div class="container">
+      <section id="main">
+        <div class="container">
+          <h1>Welcome</h1>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Dignissimos saepe ratione iste ducimus illum ut, dicta itaque
+            doloribus excepturi? Repellendus accusantium tenetur facere, fuga
+            ullam asperiores molestias dignissimos exercitationem libero? Quasi
+            rerum sit id et natus consequuntur ab, officiis debitis.
+          </p>
+        </div>
+      </section>
+      <aside id="sidebar">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint
+          consequatur ratione facere neque, totam enim beatae et perspiciatis
+          vero odit. Cumque velit nisi dolorum deserunt animi in reiciendis,
+          possimus voluptatem.
+        </p>
+      </aside>
+    </div>
+
+    <footer id="main-footer">
+      <p>Copyright &copy; 2020 My Websites</p>
+    </footer>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+  </body>
+</html>
